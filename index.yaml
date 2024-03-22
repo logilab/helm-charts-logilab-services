@@ -25,6 +25,24 @@ entries:
     version: 1.13.28
   signaturepdf:
   - apiVersion: v2
+    created: "2024-03-22T13:46:04.394245868Z"
+    dependencies:
+    - name: web-app
+      repository: https://helm.logilab.fr
+      version: 0.1.1
+    description: A Helm chart for signaturepdf
+    digest: bd725d99564cbdb88e9cd6c4a5aec6b2f2a5bceb2edb57683fe2d9441e4d1bcc
+    home: https://github.com/24eme/signaturepdf
+    icon: https://avatars.githubusercontent.com/u/11614437?s=48&v=4
+    keywords:
+    - pdf
+    - "24"
+    name: signaturepdf
+    type: application
+    urls:
+    - https://github.com/logilab/helm-charts-logilab-services/releases/download/signaturepdf-0.1.3/signaturepdf-0.1.3.tgz
+    version: 0.1.3
+  - apiVersion: v2
     created: "2024-03-22T10:47:03.328838218Z"
     dependencies:
     - name: web-app
@@ -78,4 +96,4 @@ entries:
     urls:
     - https://github.com/logilab/helm-charts-logilab-services/releases/download/voila-demo-1.0.2/voila-demo-1.0.2.tgz
     version: 1.0.2
-generated: "2024-03-22T10:47:03.328851362Z"
+generated: "2024-03-22T13:46:04.39426329Z"
