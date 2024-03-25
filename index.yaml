@@ -25,6 +25,24 @@ entries:
     version: 1.13.28
   signaturepdf:
   - apiVersion: v2
+    created: "2024-03-25T10:12:29.931081323Z"
+    dependencies:
+    - name: web-app
+      repository: https://helm.logilab.fr
+      version: 0.1.1
+    description: A Helm chart for signaturepdf
+    digest: 2b6ba23cbc4d65e8948c5b42e3947bb82f3a4e23c836cd67f9734a0a07498b93
+    home: https://github.com/24eme/signaturepdf
+    icon: https://avatars.githubusercontent.com/u/11614437?s=48&v=4
+    keywords:
+    - pdf
+    - "24"
+    name: signaturepdf
+    type: application
+    urls:
+    - https://github.com/logilab/helm-charts-logilab-services/releases/download/signaturepdf-0.1.4/signaturepdf-0.1.4.tgz
+    version: 0.1.4
+  - apiVersion: v2
     created: "2024-03-22T13:46:04.394245868Z"
     dependencies:
     - name: web-app
@@ -76,6 +94,27 @@ entries:
     version: 0.1.1
   voila-demo:
   - apiVersion: v2
+    created: "2024-03-25T10:12:30.040403244Z"
+    dependencies:
+    - name: library-chart
+      repository: https://inseefrlab.github.io/helm-charts-interactive-services
+      version: 1.5.21
+    description: Voila official demo
+    digest: 3169439029a6af2e84592dcb0fbd749b97d5232ca053e5060f0aa5552d25d099
+    home: https://voila-gallery.org
+    icon: https://raw.githubusercontent.com/voila-dashboards/voila/main/docs/voila-logo.svg
+    keywords:
+    - voila
+    - Jupyter
+    name: voila-demo
+    sources:
+    - https://forge.extranet.logilab.fr/open-source/onyxia/helm-charts-logilab-services
+    - https://github.com/InseeFrLab/helm-charts-interactive-services
+    type: application
+    urls:
+    - https://github.com/logilab/helm-charts-logilab-services/releases/download/voila-demo-1.0.4/voila-demo-1.0.4.tgz
+    version: 1.0.4
+  - apiVersion: v2
     created: "2024-03-22T10:04:11.267047044Z"
     dependencies:
     - name: library-chart
@@ -96,4 +135,4 @@ entries:
     urls:
     - https://github.com/logilab/helm-charts-logilab-services/releases/download/voila-demo-1.0.2/voila-demo-1.0.2.tgz
     version: 1.0.2
-generated: "2024-03-22T13:46:04.39426329Z"
+generated: "2024-03-25T10:12:30.040428101Z"
