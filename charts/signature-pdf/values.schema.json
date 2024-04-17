@@ -544,7 +544,7 @@
                     "type": "string",
                     "form": true,
                     "title": "ingressClassName",
-                    "default": "",
+                    "default": "nginx",
                     "x-onyxia": {
                         "hidden": true,
                         "overwriteDefaultWith": "{{k8s.ingressClassName}}"
