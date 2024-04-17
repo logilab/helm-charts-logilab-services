@@ -2,6 +2,29 @@ apiVersion: v1
 entries:
   jupyter-composer:
   - apiVersion: v2
+    created: "2024-04-17T08:55:14.385779476Z"
+    dependencies:
+    - name: library-chart
+      repository: https://inseefrlab.github.io/helm-charts-interactive-services
+      version: 1.5.21
+    description: The JupyterLab IDE with Python, Julia, and a collection of standard
+      data science packages.
+    digest: dce64892777e855124c2969c557639e8b1cddac394f917efb254303cb8ef2e5f
+    home: https://jupyter.org/
+    icon: https://jupyter-ai.readthedocs.io/en/latest/_static/jupyter_logo.png
+    keywords:
+    - Jupyter
+    - Python
+    - voila
+    name: jupyter-composer
+    sources:
+    - https://github.com/InseeFrLab/images-datascience
+    - https://github.com/InseeFrLab/helm-charts-interactive-services
+    type: application
+    urls:
+    - https://github.com/logilab/helm-charts-logilab-services/releases/download/jupyter-composer-1.2.1/jupyter-composer-1.2.1.tgz
+    version: 1.2.1
+  - apiVersion: v2
     created: "2024-03-26T07:53:15.355863948Z"
     dependencies:
     - name: library-chart
@@ -48,6 +71,28 @@ entries:
     - https://github.com/logilab/helm-charts-logilab-services/releases/download/jupyter-composer-1.1.0/jupyter-composer-1.1.0.tgz
     version: 1.1.0
   jupyter-python:
+  - apiVersion: v2
+    created: "2024-04-17T08:55:14.495899235Z"
+    dependencies:
+    - name: library-chart
+      repository: https://inseefrlab.github.io/helm-charts-interactive-services
+      version: 1.5.21
+    description: The JupyterLab IDE with Python, Julia, and a collection of standard
+      data science packages.
+    digest: 81f647907ccb1e6de6879382cb6510242453248110630be9d6ec2a043ae910cb
+    home: https://jupyter.org/
+    icon: https://minio.lab.sspcloud.fr/projet-onyxia/assets/servicesImg/jupyter.png
+    keywords:
+    - Jupyter
+    - Python
+    name: jupyter-python
+    sources:
+    - https://github.com/InseeFrLab/images-datascience
+    - https://github.com/InseeFrLab/helm-charts-interactive-services
+    type: application
+    urls:
+    - https://github.com/logilab/helm-charts-logilab-services/releases/download/jupyter-python-1.13.30/jupyter-python-1.13.30.tgz
+    version: 1.13.30
   - apiVersion: v2
     created: "2024-03-22T10:04:11.00450615Z"
     dependencies:
@@ -141,6 +186,27 @@ entries:
     version: 0.1.1
   voila-demo:
   - apiVersion: v2
+    created: "2024-04-17T08:55:14.608235881Z"
+    dependencies:
+    - name: library-chart
+      repository: https://inseefrlab.github.io/helm-charts-interactive-services
+      version: 1.5.21
+    description: Voila official demo
+    digest: d3aa769a343d537efc0e2c805e84ce1e8374c8de7388e02efd89763b0bc2b75c
+    home: https://voila-gallery.org
+    icon: https://raw.githubusercontent.com/voila-dashboards/voila/main/docs/voila-logo.svg
+    keywords:
+    - voila
+    - Jupyter
+    name: voila-demo
+    sources:
+    - https://forge.extranet.logilab.fr/open-source/onyxia/helm-charts-logilab-services
+    - https://github.com/InseeFrLab/helm-charts-interactive-services
+    type: application
+    urls:
+    - https://github.com/logilab/helm-charts-logilab-services/releases/download/voila-demo-1.0.5/voila-demo-1.0.5.tgz
+    version: 1.0.5
+  - apiVersion: v2
     created: "2024-03-25T10:12:30.040403244Z"
     dependencies:
     - name: library-chart
@@ -182,4 +248,4 @@ entries:
     urls:
     - https://github.com/logilab/helm-charts-logilab-services/releases/download/voila-demo-1.0.2/voila-demo-1.0.2.tgz
     version: 1.0.2
-generated: "2024-03-26T07:53:15.355884706Z"
+generated: "2024-04-17T08:55:14.608309417Z"
