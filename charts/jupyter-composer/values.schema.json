@@ -24,7 +24,7 @@
                             "description": "supported versions",
                             "type": "string",
                             "listEnum": [
-                              "djangoliv/jupyter-composer:0.4",
+                              "djangoliv/jupyter-composer:0.6",
                               "djangoliv/jupyter-composer:0.5"
                             ],
                             "render": "list",
@@ -32,7 +32,7 @@
                                 "value": true,
                                 "path": "service/image/custom/enabled"
                             },
-                            "default": "djangoliv/jupyter-composer:0.5"
+                            "default": "djangoliv/jupyter-composer:0.6"
                         },
                         "custom": {
                             "description": "use a custom jupyter docker image",
@@ -47,7 +47,7 @@
                                 "version": {
                                     "description": "jupyter unsupported version",
                                     "type": "string",
-                                    "default": "djangoliv/jupyter-composer:0.5",
+                                    "default": "djangoliv/jupyter-composer:0.6",
                                     "hidden": {
                                         "value": false,
                                         "path": "service/image/custom/enabled"
