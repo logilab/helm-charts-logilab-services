@@ -1,5 +1,26 @@
 apiVersion: v1
 entries:
+  asxasx:
+  - apiVersion: v2
+    created: "2024-05-02T13:28:24.693870156Z"
+    dependencies:
+    - name: library-chart
+      repository: https://inseefrlab.github.io/helm-charts-interactive-services
+      version: 1.5.21
+    digest: 72647b0740ad38820602bd46007e54a6c3914d6cb82530c43e15c43bef012bbf
+    home: https://voila-gallery.org
+    icon: https://raw.githubusercontent.com/voila-dashboards/voila/main/docs/voila-logo.svg
+    keywords:
+    - voila
+    - Jupyter
+    name: asxasx
+    sources:
+    - https://forge.extranet.logilab.fr/open-source/onyxia/helm-charts-logilab-services
+    - https://github.com/InseeFrLab/helm-charts-interactive-services
+    type: application
+    urls:
+    - https://github.com/logilab/helm-charts-logilab-services/releases/download/asxasx-0.0.1/asxasx-0.0.1.tgz
+    version: 0.0.1
   jupyter-composer:
   - apiVersion: v2
     created: "2024-05-02T08:31:12.93029116Z"
@@ -384,4 +405,4 @@ entries:
     urls:
     - https://github.com/logilab/helm-charts-logilab-services/releases/download/voila-hello-demo-0.0.1/voila-hello-demo-0.0.1.tgz
     version: 0.0.1
-generated: "2024-05-02T09:29:06.717177221Z"
+generated: "2024-05-02T13:28:24.693909951Z"
