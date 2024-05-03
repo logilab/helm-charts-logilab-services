@@ -35,7 +35,7 @@ def main(changed_filepaths: str):
     # to be built
     matrix_jobs = [
         {"image-name": path.parts[-1]}
-        for path in changed_filepaths
+        for path in changed_filepaths if path.parent.stem == 'images'
     ]
 
     # The existence of the CI environment variable is an indication that we are
@@ -47,7 +47,6 @@ def main(changed_filepaths: str):
     # We share variables between steps/jobs by writing them to GITHUB_ENV
     # More info on GITHUB_ENV: https://docs.github.com/en/actions/learn-github-actions/environment-variables
     env_file = os.getenv("GITHUB_ENV")
-
     if ci_env:
         # Add matrix job as output for use in another job
         with open(env_file, "a") as f:
