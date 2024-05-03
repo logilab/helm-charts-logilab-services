@@ -7,8 +7,8 @@ on:
     branches:
       - main
       - ci-test
-    # paths:
-      # - "images/**"
+    paths:
+      - "images/**"
 
 # When multiple PRs triggering this workflow are merged, queue them instead
 # of running them in parallel in case of clashes when pushing
