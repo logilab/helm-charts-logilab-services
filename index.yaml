@@ -1,5 +1,27 @@
 apiVersion: v1
 entries:
+  hello-world:
+  - apiVersion: v2
+    created: "2024-05-03T15:24:11.523491965Z"
+    dependencies:
+    - name: library-chart
+      repository: https://inseefrlab.github.io/helm-charts-interactive-services
+      version: 1.5.21
+    description: test
+    digest: 7362418b1c3931b754cd4e8f7256a4b1c392dc5efd5e3c4390e03eb211eb757f
+    home: https://voila-gallery.org
+    icon: https://raw.githubusercontent.com/voila-dashboards/voila/main/docs/voila-logo.svg
+    keywords:
+    - voila
+    - Jupyter
+    name: hello-world
+    sources:
+    - https://forge.extranet.logilab.fr/open-source/onyxia/helm-charts-logilab-services
+    - https://github.com/InseeFrLab/helm-charts-interactive-services
+    type: application
+    urls:
+    - https://github.com/logilab/helm-charts-logilab-services/releases/download/hello-world-0.0.2/hello-world-0.0.2.tgz
+    version: 0.0.2
   jupyter-composer:
   - apiVersion: v2
     created: "2024-05-03T15:16:47.419785129Z"
@@ -407,4 +429,4 @@ entries:
     urls:
     - https://github.com/logilab/helm-charts-logilab-services/releases/download/voila-hello-demo-0.0.1/voila-hello-demo-0.0.1.tgz
     version: 0.0.1
-generated: "2024-05-03T15:16:47.419848046Z"
+generated: "2024-05-03T15:24:11.523539223Z"
