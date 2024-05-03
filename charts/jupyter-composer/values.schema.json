@@ -356,7 +356,7 @@
                 "repository": {
                     "type": "string",
                     "description": "Repository url",
-                    "default": "",
+                    "default": "https://github.com/logilab/helm-charts-logilab-services",
                     "x-onyxia": {
                         "overwriteDefaultWith": "{{git.project}}"
                     },
