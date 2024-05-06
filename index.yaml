@@ -22,6 +22,27 @@ entries:
     urls:
     - https://github.com/logilab/helm-charts-logilab-services/releases/download/binder-example-2-0.0.1/binder-example-2-0.0.1.tgz
     version: 0.0.1
+  ipymaps:
+  - apiVersion: v2
+    created: "2024-05-06T13:27:20.263727262Z"
+    dependencies:
+    - name: library-chart
+      repository: https://inseefrlab.github.io/helm-charts-interactive-services
+      version: 1.5.21
+    digest: 0605f3b8cc159e7c646ba943f2657101f825f45318f7f8f9f0219500ef6fefad
+    home: https://voila-gallery.org
+    icon: https://raw.githubusercontent.com/voila-dashboards/voila/main/docs/voila-logo.svg
+    keywords:
+    - voila
+    - Jupyter
+    name: ipymaps
+    sources:
+    - https://forge.extranet.logilab.fr/open-source/onyxia/helm-charts-logilab-services
+    - https://github.com/InseeFrLab/helm-charts-interactive-services
+    type: application
+    urls:
+    - https://github.com/logilab/helm-charts-logilab-services/releases/download/ipymaps-0.0.1/ipymaps-0.0.1.tgz
+    version: 0.0.1
   jupyter-composer:
   - apiVersion: v2
     created: "2024-05-06T09:22:57.864564518Z"
@@ -452,4 +473,4 @@ entries:
     urls:
     - https://github.com/logilab/helm-charts-logilab-services/releases/download/voila-demo-1.0.10/voila-demo-1.0.10.tgz
     version: 1.0.10
-generated: "2024-05-06T12:49:37.291215251Z"
+generated: "2024-05-06T13:27:20.263776705Z"
