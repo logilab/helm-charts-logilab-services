@@ -1,5 +1,27 @@
 apiVersion: v1
 entries:
+  binder-example-2:
+  - apiVersion: v2
+    created: "2024-05-06T12:49:37.291174104Z"
+    dependencies:
+    - name: library-chart
+      repository: https://inseefrlab.github.io/helm-charts-interactive-services
+      version: 1.5.21
+    description: test binder example
+    digest: 501f0269b92a1cce0f6f63ef84a5ec1999ac9a13791538fb206a64a27a65833e
+    home: https://voila-gallery.org
+    icon: https://user-images.githubusercontent.com/591645/132238479-9af8dff6-ea12-465f-bb7c-2570defcdd26.png
+    keywords:
+    - voila
+    - Jupyter
+    name: binder-example-2
+    sources:
+    - https://forge.extranet.logilab.fr/open-source/onyxia/helm-charts-logilab-services
+    - https://github.com/InseeFrLab/helm-charts-interactive-services
+    type: application
+    urls:
+    - https://github.com/logilab/helm-charts-logilab-services/releases/download/binder-example-2-0.0.1/binder-example-2-0.0.1.tgz
+    version: 0.0.1
   jupyter-composer:
   - apiVersion: v2
     created: "2024-05-06T09:22:57.864564518Z"
@@ -430,4 +452,4 @@ entries:
     urls:
     - https://github.com/logilab/helm-charts-logilab-services/releases/download/voila-demo-1.0.10/voila-demo-1.0.10.tgz
     version: 1.0.10
-generated: "2024-05-06T12:12:35.762397987Z"
+generated: "2024-05-06T12:49:37.291215251Z"
