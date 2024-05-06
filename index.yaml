@@ -1,48 +1,5 @@
 apiVersion: v1
 entries:
-  binder-example-2:
-  - apiVersion: v2
-    created: "2024-05-06T12:49:37.291174104Z"
-    dependencies:
-    - name: library-chart
-      repository: https://inseefrlab.github.io/helm-charts-interactive-services
-      version: 1.5.21
-    description: test binder example
-    digest: 501f0269b92a1cce0f6f63ef84a5ec1999ac9a13791538fb206a64a27a65833e
-    home: https://voila-gallery.org
-    icon: https://user-images.githubusercontent.com/591645/132238479-9af8dff6-ea12-465f-bb7c-2570defcdd26.png
-    keywords:
-    - voila
-    - Jupyter
-    name: binder-example-2
-    sources:
-    - https://forge.extranet.logilab.fr/open-source/onyxia/helm-charts-logilab-services
-    - https://github.com/InseeFrLab/helm-charts-interactive-services
-    type: application
-    urls:
-    - https://github.com/logilab/helm-charts-logilab-services/releases/download/binder-example-2-0.0.1/binder-example-2-0.0.1.tgz
-    version: 0.0.1
-  ipymaps:
-  - apiVersion: v2
-    created: "2024-05-06T13:27:20.263727262Z"
-    dependencies:
-    - name: library-chart
-      repository: https://inseefrlab.github.io/helm-charts-interactive-services
-      version: 1.5.21
-    digest: 0605f3b8cc159e7c646ba943f2657101f825f45318f7f8f9f0219500ef6fefad
-    home: https://voila-gallery.org
-    icon: https://raw.githubusercontent.com/voila-dashboards/voila/main/docs/voila-logo.svg
-    keywords:
-    - voila
-    - Jupyter
-    name: ipymaps
-    sources:
-    - https://forge.extranet.logilab.fr/open-source/onyxia/helm-charts-logilab-services
-    - https://github.com/InseeFrLab/helm-charts-interactive-services
-    type: application
-    urls:
-    - https://github.com/logilab/helm-charts-logilab-services/releases/download/ipymaps-0.0.1/ipymaps-0.0.1.tgz
-    version: 0.0.1
   jupyter-composer:
   - apiVersion: v2
     created: "2024-05-06T09:22:57.864564518Z"
@@ -473,26 +430,4 @@ entries:
     urls:
     - https://github.com/logilab/helm-charts-logilab-services/releases/download/voila-demo-1.0.10/voila-demo-1.0.10.tgz
     version: 1.0.10
-  weather-map:
-  - apiVersion: v2
-    created: "2024-05-06T14:31:52.777504942Z"
-    dependencies:
-    - name: library-chart
-      repository: https://inseefrlab.github.io/helm-charts-interactive-services
-      version: 1.5.21
-    description: test ipyleaflet
-    digest: 0b824f0089a4a9227194c6b334ca9ef02109310b1173db36fd5eeadc7475b149
-    home: https://voila-gallery.org
-    icon: https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn3.iconfinder.com%2Fdata%2Ficons%2Fluchesa-vol-9%2F128%2FWeather-1024.png&f=1&nofb=1&ipt=94d1191a48f6aefd8db7347c66cfa5232dafd35ef34833abf7ec774e012c8160&ipo=images
-    keywords:
-    - voila
-    - Jupyter
-    name: weather-map
-    sources:
-    - https://forge.extranet.logilab.fr/open-source/onyxia/helm-charts-logilab-services
-    - https://github.com/InseeFrLab/helm-charts-interactive-services
-    type: application
-    urls:
-    - https://github.com/logilab/helm-charts-logilab-services/releases/download/weather-map-0.0.1/weather-map-0.0.1.tgz
-    version: 0.0.1
 generated: "2024-05-06T14:31:52.777597916Z"
