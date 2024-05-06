@@ -408,6 +408,28 @@ entries:
     urls:
     - https://github.com/logilab/helm-charts-logilab-services/releases/download/signaturepdf-0.1.1/signaturepdf-0.1.1.tgz
     version: 0.1.1
+  voila-demo:
+  - apiVersion: v2
+    created: "2024-05-06T10:24:08.388910568Z"
+    dependencies:
+    - name: library-chart
+      repository: https://inseefrlab.github.io/helm-charts-interactive-services
+      version: 1.5.21
+    description: test voila
+    digest: 0504c383d21aff06301d87e9b6104d9193b549d3117a940d3c7bb29f6e7a9e55
+    home: https://voila-gallery.org
+    icon: https://raw.githubusercontent.com/voila-dashboards/voila/main/docs/voila-logo.svg
+    keywords:
+    - voila
+    - Jupyter
+    name: voila-demo
+    sources:
+    - https://forge.extranet.logilab.fr/open-source/onyxia/helm-charts-logilab-services
+    - https://github.com/InseeFrLab/helm-charts-interactive-services
+    type: application
+    urls:
+    - https://github.com/logilab/helm-charts-logilab-services/releases/download/voila-demo-1.0.8/voila-demo-1.0.8.tgz
+    version: 1.0.8
   voila-hello-demo:
   - apiVersion: v2
     created: "2024-05-02T09:29:06.717134812Z"
@@ -430,4 +452,4 @@ entries:
     urls:
     - https://github.com/logilab/helm-charts-logilab-services/releases/download/voila-hello-demo-0.0.1/voila-hello-demo-0.0.1.tgz
     version: 0.0.1
-generated: "2024-05-06T09:49:33.262279978Z"
+generated: "2024-05-06T10:24:08.388976418Z"
