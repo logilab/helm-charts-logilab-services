@@ -430,4 +430,26 @@ entries:
     urls:
     - https://github.com/logilab/helm-charts-logilab-services/releases/download/voila-demo-1.0.10/voila-demo-1.0.10.tgz
     version: 1.0.10
-generated: "2024-05-06T17:06:26.928745824Z"
+  voila-demoFix:
+  - apiVersion: v2
+    created: "2024-05-07T07:05:22.805178687Z"
+    dependencies:
+    - name: library-chart
+      repository: https://inseefrlab.github.io/helm-charts-interactive-services
+      version: 1.5.21
+    description: fix
+    digest: 54e9bdf58c5db68d11d8a83006d6bd4568a858092dc738cb7cf5a8e101b79ebd
+    home: https://voila-gallery.org
+    icon: https://raw.githubusercontent.com/voila-dashboards/voila/main/docs/voila-logo.svg
+    keywords:
+    - voila
+    - Jupyter
+    name: voila-demoFix
+    sources:
+    - https://forge.extranet.logilab.fr/open-source/onyxia/helm-charts-logilab-services
+    - https://github.com/InseeFrLab/helm-charts-interactive-services
+    type: application
+    urls:
+    - https://github.com/logilab/helm-charts-logilab-services/releases/download/voila-demoFix-0.0.1/voila-demoFix-0.0.1.tgz
+    version: 0.0.1
+generated: "2024-05-07T07:05:22.805231336Z"
