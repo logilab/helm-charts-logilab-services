@@ -12,7 +12,9 @@ RUN if [ -f "/srv/jupyter_config.py" ]; then cp /srv/jupyter_config.py /home/ony
 RUN if [ -f "/srv/jupyter_config.json" ]; then cp /srv/jupyter_config.json /home/onyxia/.jupyter/; fi
 RUN if [ -f "/srv/jupyter_lab_config.py" ]; then cp /srv/jupyter_lab_config.py /home/onyxia/.jupyter/; fi
 
+RUN echo "alias voila='cd /srv; voila'" >> /etc/profile
+RUN echo "alias voila='cd /srv; voila'" >> /home/onyxia/.bashrc
+
 USER 1000
 EXPOSE 8888
 
-CMD ["voila", "/srv/${NOTEBOOK_NAME}", "--Voila.ip='0.0.0.0'", "--port=8888", "--no-browser"]
