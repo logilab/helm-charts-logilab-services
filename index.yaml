@@ -321,6 +321,28 @@ entries:
     urls:
     - https://github.com/logilab/helm-charts-logilab-services/releases/download/jupyter-python-1.13.28/jupyter-python-1.13.28.tgz
     version: 1.13.28
+  last:
+  - apiVersion: v2
+    created: "2024-05-07T10:26:02.226590578Z"
+    dependencies:
+    - name: library-chart
+      repository: https://inseefrlab.github.io/helm-charts-interactive-services
+      version: 1.5.21
+    description: ll
+    digest: 96726dc34e1f945fad6f4001aedf8f14b1b1c86c955586a2e7e30d23803abdd3
+    home: https://voila-gallery.org
+    icon: https://raw.githubusercontent.com/voila-dashboards/voila/main/docs/voila-logo.svg
+    keywords:
+    - voila
+    - Jupyter
+    name: last
+    sources:
+    - https://forge.extranet.logilab.fr/open-source/onyxia/helm-charts-logilab-services
+    - https://github.com/InseeFrLab/helm-charts-interactive-services
+    type: application
+    urls:
+    - https://github.com/logilab/helm-charts-logilab-services/releases/download/last-0.0.1/last-0.0.1.tgz
+    version: 0.0.1
   signaturepdf:
   - apiVersion: v2
     created: "2024-04-17T09:07:02.536600734Z"
@@ -430,4 +452,4 @@ entries:
     urls:
     - https://github.com/logilab/helm-charts-logilab-services/releases/download/voila-demo-1.0.10/voila-demo-1.0.10.tgz
     version: 1.0.10
-generated: "2024-05-07T09:49:13.385745514Z"
+generated: "2024-05-07T10:26:02.22663429Z"
