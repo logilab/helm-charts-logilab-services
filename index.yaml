@@ -1,27 +1,5 @@
 apiVersion: v1
 entries:
-  haha:
-  - apiVersion: v2
-    created: "2024-05-07T09:49:13.385696743Z"
-    dependencies:
-    - name: library-chart
-      repository: https://inseefrlab.github.io/helm-charts-interactive-services
-      version: 1.5.21
-    description: jj
-    digest: 462eee928c13c261c24cc29e93d9e087e5035b0589f0b53850aa327b233fd549
-    home: https://voila-gallery.org
-    icon: https://raw.githubusercontent.com/voila-dashboards/voila/main/docs/voila-logo.svg
-    keywords:
-    - voila
-    - Jupyter
-    name: haha
-    sources:
-    - https://forge.extranet.logilab.fr/open-source/onyxia/helm-charts-logilab-services
-    - https://github.com/InseeFrLab/helm-charts-interactive-services
-    type: application
-    urls:
-    - https://github.com/logilab/helm-charts-logilab-services/releases/download/haha-0.0.1/haha-0.0.1.tgz
-    version: 0.0.1
   jupyter-composer:
   - apiVersion: v2
     created: "2024-05-06T09:22:57.864564518Z"
