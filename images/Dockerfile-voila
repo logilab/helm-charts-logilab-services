@@ -12,6 +12,8 @@ RUN if [ -f "/srv/jupyter_config.py" ]; then cp /srv/jupyter_config.py /home/ony
 RUN if [ -f "/srv/jupyter_config.json" ]; then cp /srv/jupyter_config.json /home/onyxia/.jupyter/; fi
 RUN if [ -f "/srv/jupyter_lab_config.py" ]; then cp /srv/jupyter_lab_config.py /home/onyxia/.jupyter/; fi
 
+RUN sed -i 's|echo "execution of $@"|cd /srv|g' /opt/onyxia-init.sh 
+
 USER 1000
 EXPOSE 8888
 
