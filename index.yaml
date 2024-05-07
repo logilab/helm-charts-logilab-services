@@ -432,6 +432,27 @@ entries:
     version: 1.0.10
   vv-fix:
   - apiVersion: v2
+    created: "2024-05-07T08:16:59.214142987Z"
+    dependencies:
+    - name: library-chart
+      repository: https://inseefrlab.github.io/helm-charts-interactive-services
+      version: 1.5.21
+    description: test
+    digest: adbf8588cd9343b5c378d8fcc795a69e5f3a4601e21046b90938abb50404fa73
+    home: https://voila-gallery.org
+    icon: https://raw.githubusercontent.com/voila-dashboards/voila/main/docs/voila-logo.svg
+    keywords:
+    - voila
+    - Jupyter
+    name: vv-fix
+    sources:
+    - https://forge.extranet.logilab.fr/open-source/onyxia/helm-charts-logilab-services
+    - https://github.com/InseeFrLab/helm-charts-interactive-services
+    type: application
+    urls:
+    - https://github.com/logilab/helm-charts-logilab-services/releases/download/vv-fix-0.0.3/vv-fix-0.0.3.tgz
+    version: 0.0.3
+  - apiVersion: v2
     created: "2024-05-07T08:04:28.197674795Z"
     dependencies:
     - name: library-chart
@@ -473,4 +494,4 @@ entries:
     urls:
     - https://github.com/logilab/helm-charts-logilab-services/releases/download/vv-fix-0.0.1/vv-fix-0.0.1.tgz
     version: 0.0.1
-generated: "2024-05-07T08:04:28.197723206Z"
+generated: "2024-05-07T08:16:59.214190566Z"
