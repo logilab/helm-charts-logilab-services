@@ -1,7 +1,0 @@
-voila
-jupyter-flex
-numpy
-pandas
-plotly
-ipywidgets
-bokeh
