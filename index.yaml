@@ -366,6 +366,27 @@ entries:
     version: 0.1.1
   testrepo:
   - apiVersion: v2
+    created: "2024-05-13T13:30:54.92087169Z"
+    dependencies:
+    - name: library-chart
+      repository: https://inseefrlab.github.io/helm-charts-interactive-services
+      version: 1.5.21
+    description: voila-demo
+    digest: 82006bf1d1f03fb0f1caa58a2ac5ce59907774d5225e53fd35e8d370ebeb6e93
+    home: https://voila-gallery.org
+    icon: https://raw.githubusercontent.com/voila-dashboards/voila/main/docs/voila-logo.svg
+    keywords:
+    - voila
+    - Jupyter
+    name: testrepo
+    sources:
+    - https://forge.extranet.logilab.fr/open-source/onyxia/helm-charts-logilab-services
+    - https://github.com/InseeFrLab/helm-charts-interactive-services
+    type: application
+    urls:
+    - https://github.com/logilab/helm-charts-logilab-services/releases/download/testrepo-0.0.5/testrepo-0.0.5.tgz
+    version: 0.0.5
+  - apiVersion: v2
     created: "2024-05-13T13:20:17.688951337Z"
     dependencies:
     - name: library-chart
@@ -428,4 +449,4 @@ entries:
     urls:
     - https://github.com/logilab/helm-charts-logilab-services/releases/download/testrepo-0.0.2/testrepo-0.0.2.tgz
     version: 0.0.2
-generated: "2024-05-13T13:20:17.688998195Z"
+generated: "2024-05-13T13:30:54.9209247Z"
