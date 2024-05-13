@@ -399,12 +399,4 @@ entries:
     keywords:
     - voila
     - Jupyter
-    name: testRepo
-    sources:
-    - https://forge.extranet.logilab.fr/open-source/onyxia/helm-charts-logilab-services
-    - https://github.com/InseeFrLab/helm-charts-interactive-services
-    type: application
-    urls:
-    - https://github.com/logilab/helm-charts-logilab-services/releases/download/testRepo-0.0.1/testRepo-0.0.1.tgz
-    version: 0.0.1
 generated: "2024-05-13T11:44:00.986070927Z"
