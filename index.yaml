@@ -389,6 +389,26 @@ entries:
     version: 0.1.1
   testdocker:
   - apiVersion: v2
+    created: "2024-05-14T07:34:38.692280422Z"
+    dependencies:
+    - name: library-chart
+      repository: https://inseefrlab.github.io/helm-charts-interactive-services
+      version: 1.5.21
+    digest: 197a5a915ea36ca55d67d2a70d83fbcf47710a1a4c0fc616742fe745898f8675
+    home: https://voila-gallery.org
+    icon: https://raw.githubusercontent.com/voila-dashboards/voila/main/docs/voila-logo.svg
+    keywords:
+    - voila
+    - Jupyter
+    name: testdocker
+    sources:
+    - https://forge.extranet.logilab.fr/open-source/onyxia/helm-charts-logilab-services
+    - https://github.com/InseeFrLab/helm-charts-interactive-services
+    type: application
+    urls:
+    - https://github.com/logilab/helm-charts-logilab-services/releases/download/testdocker-0.0.2/testdocker-0.0.2.tgz
+    version: 0.0.2
+  - apiVersion: v2
     created: "2024-05-14T07:34:16.867579181Z"
     dependencies:
     - name: library-chart
@@ -408,4 +428,4 @@ entries:
     urls:
     - https://github.com/logilab/helm-charts-logilab-services/releases/download/testdocker-0.0.1/testdocker-0.0.1.tgz
     version: 0.0.1
-generated: "2024-05-14T07:34:16.867625548Z"
+generated: "2024-05-14T07:34:38.69233277Z"
