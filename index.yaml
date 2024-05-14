@@ -2,6 +2,29 @@ apiVersion: v1
 entries:
   jupyter-composer:
   - apiVersion: v2
+    created: "2024-05-14T14:23:15.01598391Z"
+    dependencies:
+    - name: library-chart
+      repository: https://inseefrlab.github.io/helm-charts-interactive-services
+      version: 1.5.21
+    description: The JupyterLab IDE with Python, Julia, and a collection of standard
+      data science packages.
+    digest: d64d9bf7b2a8149d338053ad5f4a283d6b3d5c3ae7887743f6bcd033d69e77fc
+    home: https://jupyter.org/
+    icon: https://jupyter-ai.readthedocs.io/en/latest/_static/jupyter_logo.png
+    keywords:
+    - Jupyter
+    - Python
+    - voila
+    name: jupyter-composer
+    sources:
+    - https://github.com/InseeFrLab/images-datascience
+    - https://github.com/InseeFrLab/helm-charts-interactive-services
+    type: application
+    urls:
+    - https://github.com/logilab/helm-charts-logilab-services/releases/download/jupyter-composer-1.7.1/jupyter-composer-1.7.1.tgz
+    version: 1.7.1
+  - apiVersion: v2
     created: "2024-05-13T13:52:23.440376916Z"
     dependencies:
     - name: library-chart
@@ -408,4 +431,4 @@ entries:
     urls:
     - https://github.com/logilab/helm-charts-logilab-services/releases/download/testrepo-0.1.2/testrepo-0.1.2.tgz
     version: 0.1.2
-generated: "2024-05-14T12:45:38.949593046Z"
+generated: "2024-05-14T14:23:15.016098806Z"
