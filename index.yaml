@@ -346,6 +346,29 @@ entries:
     urls:
     - https://github.com/logilab/helm-charts-logilab-services/releases/download/jupyter-composer-1.1.0/jupyter-composer-1.1.0.tgz
     version: 1.1.0
+  pygwalker-demo:
+  - apiVersion: v2
+    created: "2024-05-15T09:24:45.750232504Z"
+    dependencies:
+    - name: library-chart
+      repository: https://inseefrlab.github.io/helm-charts-interactive-services
+      version: 1.5.21
+    description: pygwalker demo for onyxia
+    digest: dd1ed33e29a591b2ccde200d83601d129b1d102f32c37d285ab2f3051c648999
+    home: https://voila-gallery.org
+    icon: https://img.stackshare.io/service/48736/default_4e0283db2d5888961e64dca45605f779d2231d0c.png
+    keywords:
+    - voila
+    - Jupyter
+    name: pygwalker-demo
+    sources:
+    - https://github.com/djangoliv/pygwalker-demo
+    - https://forge.extranet.logilab.fr/open-source/onyxia/helm-charts-logilab-services
+    - https://github.com/InseeFrLab/helm-charts-interactive-services
+    type: application
+    urls:
+    - https://github.com/logilab/helm-charts-logilab-services/releases/download/pygwalker-demo-0.0.1/pygwalker-demo-0.0.1.tgz
+    version: 0.0.1
   signaturepdf:
   - apiVersion: v2
     created: "2024-04-17T09:07:02.536600734Z"
@@ -433,4 +456,4 @@ entries:
     urls:
     - https://github.com/logilab/helm-charts-logilab-services/releases/download/signaturepdf-0.1.1/signaturepdf-0.1.1.tgz
     version: 0.1.1
-generated: "2024-05-15T08:38:53.856421472Z"
+generated: "2024-05-15T09:24:45.750289361Z"
