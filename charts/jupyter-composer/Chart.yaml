@@ -1,6 +1,6 @@
 apiVersion: v2
 name: jupyter-composer
-description: The JupyterLab IDE with Python, Julia, and a collection of standard data science packages.
+description: A jupyter application composer for Onyxia
 icon: https://jupyter-ai.readthedocs.io/en/latest/_static/jupyter_logo.png
 keywords:
   - Jupyter
