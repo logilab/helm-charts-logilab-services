@@ -369,4 +369,27 @@ entries:
     urls:
     - https://github.com/logilab/helm-charts-logilab-services/releases/download/pygwalker-demo-0.0.3/pygwalker-demo-0.0.3.tgz
     version: 0.0.3
-generated: "2024-05-16T09:23:44.938335832Z"
+  voila-demo:
+  - apiVersion: v2
+    created: "2024-05-16T09:25:55.13123072Z"
+    dependencies:
+    - name: library-chart
+      repository: https://inseefrlab.github.io/helm-charts-interactive-services
+      version: 1.5.21
+    description: voila demo for onyxia
+    digest: d2c89e94ae9ce44a17a019d3318b206a89e214f9695fd284164419c148465c6b
+    home: https://voila-gallery.org
+    icon: https://raw.githubusercontent.com/voila-dashboards/voila/main/docs/voila-logo.svg
+    keywords:
+    - voila
+    - Jupyter
+    name: voila-demo
+    sources:
+    - https://github.com/djangoliv/voila-demo
+    - https://forge.extranet.logilab.fr/open-source/onyxia/helm-charts-logilab-services
+    - https://github.com/InseeFrLab/helm-charts-interactive-services
+    type: application
+    urls:
+    - https://github.com/logilab/helm-charts-logilab-services/releases/download/voila-demo-1.1.1/voila-demo-1.1.1.tgz
+    version: 1.1.1
+generated: "2024-05-16T09:25:55.131271786Z"
