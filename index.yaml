@@ -369,27 +369,4 @@ entries:
     urls:
     - https://github.com/logilab/helm-charts-logilab-services/releases/download/pygwalker-demo-0.0.5/pygwalker-demo-0.0.5.tgz
     version: 0.0.5
-  streamlit-demo:
-  - apiVersion: v2
-    created: '2024-05-16T09:47:00.580286567Z'
-    dependencies:
-    - name: library-chart
-      repository: https://inseefrlab.github.io/helm-charts-interactive-services
-      version: 1.5.21
-    description: streamlit demo for Onyxia
-    digest: ff0a1ba22c9e8395ffe0eb3b689eb95e47789c5440136cd98c9e774667e240fb
-    home: https://voila-gallery.org
-    icon: https://seeklogo.com/images/S/streamlit-logo-1A3B208AE4-seeklogo.com.png
-    keywords:
-    - voila
-    - Jupyter
-    name: streamlit-demo
-    sources:
-    - https://github.com/andfanilo/streamlit-echarts-demo
-    - https://forge.extranet.logilab.fr/open-source/onyxia/helm-charts-logilab-services
-    - https://github.com/InseeFrLab/helm-charts-interactive-services
-    type: application
-    urls:
-    - https://github.com/logilab/helm-charts-logilab-services/releases/download/streamlit-demo-0.0.2/streamlit-demo-0.0.2.tgz
-    version: 0.0.2
 generated: '2024-05-16T09:47:46.941374851Z'
