@@ -24,14 +24,14 @@
                             "description": "supported versions",
                             "type": "string",
                             "listEnum": [
-                              "${IMAGE}"
+                              "registry.logilab.fr/open-source/dockerfiles/onyxia/pygwalker-demo:latest"
                             ],
                             "render": "list",
                             "hidden": {
                                 "value": true,
                                 "path": "service/image/custom/enabled"
                             },
-                          "default": "${IMAGE}"
+                          "default": "registry.logilab.fr/open-source/dockerfiles/onyxia/pygwalker-demo:latest"
                         },
                         "custom": {
                             "description": "use a custom voila docker image",
@@ -46,7 +46,7 @@
                                 "version": {
                                     "description": "voila unsupported version",
                                     "type": "string",
-                                    "default": "${IMAGE}",
+                                    "default": "registry.logilab.fr/open-source/dockerfiles/onyxia/pygwalker-demo:latest",
                                     "hidden": {
                                         "value": false,
                                         "path": "service/image/custom/enabled"
