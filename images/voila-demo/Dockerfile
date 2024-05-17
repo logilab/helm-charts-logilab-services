@@ -3,7 +3,7 @@ FROM inseefrlab/onyxia-python-datascience
 USER root
 
 WORKDIR /srv
-RUN git clone https://github.com/djangoliv/voila-demo .
+RUN git clone https://github.com/maartenbreddels/voila-demo .
 RUN pip install -U jupyterlab ipywidgets voila --no-cache
 RUN if [ -f "/srv/requirements.txt" ]; then pip --no-cache install -U -r /srv/requirements.txt; fi
 RUN if [ -f "/srv/environment.yml" ]; then conda env update -n root -f /srv/environment.yml; \
