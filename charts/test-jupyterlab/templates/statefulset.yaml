@@ -119,7 +119,7 @@ spec:
           image: "{{ .Values.service.image.version }}"
           {{- end }}
           command: ["/bin/sh","-c"]
-          args: ["{{ .Values.init.standardInitPath }} sudo rm -rf /home/onyxia/.jupyter & voila /srv/index.ipynb --Voila.ip='0.0.0.0' --port=8888 --no-browser"]
+          args: ["{{ .Values.init.standardInitPath }} sudo rm -rf /home/onyxia/.jupyter & jupyter lab --no-browser --ip '0.0.0.0' --ContentsManager.allow_hidden=True"]
           imagePullPolicy: {{ .Values.service.image.pullPolicy }}
           env:
             - name: KUBERNETES_POD_NAME

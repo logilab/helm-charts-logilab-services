@@ -2,6 +2,11 @@ FROM inseefrlab/onyxia-python-datascience
 
 USER root
 
+RUN apt-get -y update && apt-get -y upgrade
+RUN curl -sL https://deb.nodesource.com/setup_20.x | bash -
+RUN apt-get update
+RUN apt-get install nodejs yarn -y
+RUN apt-get clean -y && apt-get -y autoremove && apt-get -y autoclean
 COPY . /srv/
 RUN pip install -U jupyterlab ipywidgets voila --no-cache
 RUN if [ -f "/srv/requirements.txt" ]; then pip --no-cache install -U -r /srv/requirements.txt; fi
