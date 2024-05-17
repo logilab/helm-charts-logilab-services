@@ -1,0 +1,1 @@
+{"name": "streamlit-demo", "version": "0.0.6", "desc": "streamlit demo for Onyxia", "iconURL": "https://seeklogo.com/images/S/streamlit-logo-1A3B208AE4-seeklogo.com.png", "pythonFileName": "app.py", "appType": "streamlit", "appBuildType": "fromRepo", "appRepoURL": "https://github.com/andfanilo/streamlit-echarts-demo", "cpuLimit": 2000, "memLimit": 3}
