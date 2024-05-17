@@ -393,27 +393,4 @@ entries:
     urls:
     - https://github.com/logilab/helm-charts-logilab-services/releases/download/streamlit-demo-0.0.8/streamlit-demo-0.0.8.tgz
     version: 0.0.8
-  voila-demo:
-  - apiVersion: v2
-    created: '2024-05-17T08:56:15.848842722Z'
-    dependencies:
-    - name: library-chart
-      repository: https://inseefrlab.github.io/helm-charts-interactive-services
-      version: 1.5.21
-    description: voila demo for onyxia
-    digest: a3ccb7793bdbb42b9c0ecf668dafe2056a4df42fef92759e3de5cf1498f41e0a
-    home: https://voila-gallery.org
-    icon: https://raw.githubusercontent.com/voila-dashboards/voila/main/docs/voila-logo.svg
-    keywords:
-    - voila
-    - Jupyter
-    name: voila-demo
-    sources:
-    - https://github.com/djangoliv/voila-demo
-    - https://forge.extranet.logilab.fr/open-source/onyxia/helm-charts-logilab-services
-    - https://github.com/InseeFrLab/helm-charts-interactive-services
-    type: application
-    urls:
-    - https://github.com/logilab/helm-charts-logilab-services/releases/download/voila-demo-1.1.5/voila-demo-1.1.5.tgz
-    version: 1.1.5
 generated: '2024-05-17T11:11:28.69388919Z'
