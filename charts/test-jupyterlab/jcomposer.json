@@ -1,1 +1,1 @@
-{"name": "test-jupyterlab", "version": "0.0.3", "desc": "test jlab for Onyxia", "notebookName": "index.ipynb", "pythonFileName": "index.py", "appType": "jupyterlab", "appBuildType": "fromLocalDirectory", "appDir": "/tmp/yy", "cpuLimit": 1500, "memLimit": 2}
+{"name": "test-jupyterlab", "version": "0.0.4", "desc": "test jlab for Onyxia", "iconURL": "", "notebookName": "index.ipynb", "pythonFileName": "index.py", "appType": "jupyterlab", "appBuildType": "fromLocalDirectory", "appDir": "/tmp/yy", "cpuLimit": 1500, "memLimit": 2}
