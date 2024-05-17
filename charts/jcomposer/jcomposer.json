@@ -1,0 +1,1 @@
+{"name": "jcomposer", "version": "0.0.1", "desc": "test ljk", "iconURL": "", "notebookName": "index.ipynb", "pythonFileName": "index.py", "appType": "jupyterlab", "appBuildType": "fromLocalDirectory", "appDir": "/tmp/yy", "cpuLimit": 2000, "memLimit": 3}
