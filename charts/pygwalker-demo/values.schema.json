@@ -13,7 +13,7 @@
                         "pullPolicy": {
                             "type": "string",
                             "description": "option when pulling the docker image",
-                            "default": "Always",
+                            "default": "IfNotPresent",
                             "enum": [
                                 "IfNotPresent",
                                 "Always",
@@ -24,14 +24,14 @@
                             "description": "supported versions",
                             "type": "string",
                             "listEnum": [
-                              "registry.logilab.fr/open-source/dockerfiles/onyxia/pygwalker-demo:latest"
+                              "registry.logilab.fr/open-source/dockerfiles/onyxia/pygwalker-demo:0.1.0"
                             ],
                             "render": "list",
                             "hidden": {
                                 "value": true,
                                 "path": "service/image/custom/enabled"
                             },
-                          "default": "registry.logilab.fr/open-source/dockerfiles/onyxia/pygwalker-demo:latest"
+                          "default": "registry.logilab.fr/open-source/dockerfiles/onyxia/pygwalker-demo:0.1.0"
                         },
                         "custom": {
                             "description": "use a custom voila docker image",
@@ -46,7 +46,7 @@
                                 "version": {
                                     "description": "voila unsupported version",
                                     "type": "string",
-                                    "default": "registry.logilab.fr/open-source/dockerfiles/onyxia/pygwalker-demo:latest",
+                                    "default": "registry.logilab.fr/open-source/dockerfiles/onyxia/pygwalker-demo:0.1.0",
                                     "hidden": {
                                         "value": false,
                                         "path": "service/image/custom/enabled"
@@ -94,7 +94,7 @@
                             "description": "The amount of cpu guaranteed",
                             "title": "CPU",
                             "type": "string",
-                            "default": "100m",
+                            "default": "2000m",
                             "render": "slider",
                             "sliderMin": 50,
                             "sliderMax": 40000,
@@ -112,7 +112,7 @@
                             "description": "The amount of memory guaranteed",
                             "title": "memory",
                             "type": "string",
-                            "default": "1Gi",
+                            "default": "4Gi",
                             "render": "slider",
                             "sliderMin": 1,
                             "sliderMax": 200,
@@ -136,7 +136,7 @@
                             "description": "The maximum amount of cpu",
                             "title": "CPU",
                             "type": "string",
-                            "default": "2000",
+                            "default": "2000m",
                             "render": "slider",
                             "sliderMin": 50,
                             "sliderMax": 4000,

@@ -197,7 +197,11 @@ autoscaling:
 
 nodeSelector: {}
 
-tolerations: []
+tolerations:
+  - key: "type"
+    value: "high-mem"
+    operator: "Exists"
+    effect: "NoSchedule"
 
 affinity: {}
 
