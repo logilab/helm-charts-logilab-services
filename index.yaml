@@ -346,30 +346,6 @@ entries:
     urls:
     - https://github.com/logilab/helm-charts-logilab-services/releases/download/jupyter-composer-1.1.0/jupyter-composer-1.1.0.tgz
     version: 1.1.0
-  streamlit-demo:
-  - apiVersion: v2
-    appVersion: 0.0.7
-    created: '2024-05-17T11:16:51.906876787Z'
-    dependencies:
-    - name: library-chart
-      repository: https://inseefrlab.github.io/helm-charts-interactive-services
-      version: 1.5.21
-    description: streamlit demo for Onyxia
-    digest: 592e0e92eea511f0a3b215edb796e1d6f9f39727efcc687a694d9392ecd7dae3
-    home: https://voila-gallery.org
-    icon: https://seeklogo.com/images/S/streamlit-logo-1A3B208AE4-seeklogo.com.png
-    keywords:
-    - voila
-    - Jupyter
-    name: streamlit-demo
-    sources:
-    - https://github.com/andfanilo/streamlit-echarts-demo
-    - https://forge.extranet.logilab.fr/open-source/onyxia/helm-charts-logilab-services
-    - https://github.com/InseeFrLab/helm-charts-interactive-services
-    type: application
-    urls:
-    - https://github.com/logilab/helm-charts-logilab-services/releases/download/streamlit-demo-0.0.9/streamlit-demo-0.0.9.tgz
-    version: 0.0.9
   voila-demo:
   - apiVersion: v2
     appVersion: '1'
