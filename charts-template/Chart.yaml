@@ -26,6 +26,8 @@ type: application
 
 version: ${VERSION}
 
+appVersion: ${DOCKER_IMAGE_TAG}
+
 dependencies:
   - name: library-chart
     version: 1.5.21
