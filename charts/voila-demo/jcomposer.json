@@ -1,0 +1,1 @@
+{"name": "voila-demo", "version": "1.1.5", "desc": "voila demo for onyxia", "iconURL": "https://raw.githubusercontent.com/voila-dashboards/voila/main/docs/voila-logo.svg", "notebookName": "voila-vuetify.ipynb", "appType": "voila", "appBuildType": "fromRepo", "appRepoURL": "https://github.com/djangoliv/voila-demo", "cpuLimit": 2000, "memLimit": 3}
