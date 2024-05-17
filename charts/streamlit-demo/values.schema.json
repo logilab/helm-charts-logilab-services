@@ -24,14 +24,14 @@
                             "description": "supported versions",
                             "type": "string",
                             "listEnum": [
-                              "registry.logilab.fr/open-source/dockerfiles/onyxia/streamlit-demo:0.0.7"
+                              "registry.logilab.fr/open-source/dockerfiles/onyxia/streamlit-demo:0.1"
                             ],
                             "render": "list",
                             "hidden": {
                                 "value": true,
                                 "path": "service/image/custom/enabled"
                             },
-                          "default": "registry.logilab.fr/open-source/dockerfiles/onyxia/streamlit-demo:0.0.7"
+                          "default": "registry.logilab.fr/open-source/dockerfiles/onyxia/streamlit-demo:0.1"
                         },
                         "custom": {
                             "description": "use a custom voila docker image",
@@ -46,7 +46,7 @@
                                 "version": {
                                     "description": "voila unsupported version",
                                     "type": "string",
-                                    "default": "registry.logilab.fr/open-source/dockerfiles/onyxia/streamlit-demo:0.0.7",
+                                    "default": "registry.logilab.fr/open-source/dockerfiles/onyxia/streamlit-demo:0.1",
                                     "hidden": {
                                         "value": false,
                                         "path": "service/image/custom/enabled"
