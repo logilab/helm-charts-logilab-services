@@ -1,6 +1,7 @@
 voila
 flake8
 black
+bokeh
 ipywidgets
 bqplot
 numpy<2
