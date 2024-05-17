@@ -24,14 +24,14 @@
                             "description": "supported versions",
                             "type": "string",
                             "listEnum": [
-                              "registry.logilab.fr/open-source/dockerfiles/onyxia/pygwalker-demo:0.1.0"
+                              "registry.logilab.fr/open-source/dockerfiles/onyxia/pygwalker-demo:1.1"
                             ],
                             "render": "list",
                             "hidden": {
                                 "value": true,
                                 "path": "service/image/custom/enabled"
                             },
-                          "default": "registry.logilab.fr/open-source/dockerfiles/onyxia/pygwalker-demo:0.1.0"
+                          "default": "registry.logilab.fr/open-source/dockerfiles/onyxia/pygwalker-demo:1.1"
                         },
                         "custom": {
                             "description": "use a custom voila docker image",
@@ -46,7 +46,7 @@
                                 "version": {
                                     "description": "voila unsupported version",
                                     "type": "string",
-                                    "default": "registry.logilab.fr/open-source/dockerfiles/onyxia/pygwalker-demo:0.1.0",
+                                    "default": "registry.logilab.fr/open-source/dockerfiles/onyxia/pygwalker-demo:1.1",
                                     "hidden": {
                                         "value": false,
                                         "path": "service/image/custom/enabled"
@@ -112,7 +112,7 @@
                             "description": "The amount of memory guaranteed",
                             "title": "memory",
                             "type": "string",
-                            "default": "4Gi",
+                            "default": "3Gi",
                             "render": "slider",
                             "sliderMin": 1,
                             "sliderMax": 200,
@@ -154,7 +154,7 @@
                             "description": "The maximum amount of memory",
                             "title": "Memory",
                             "type": "string",
-                            "default": "4Gi",
+                            "default": "3Gi",
                             "render": "slider",
                             "sliderMin": 1,
                             "sliderMax": 20,

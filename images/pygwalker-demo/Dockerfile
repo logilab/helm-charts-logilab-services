@@ -11,8 +11,8 @@ RUN if [ -f "/srv/environment.yml" ]; then conda env update -n root -f /srv/envi
 
 USER 1000
 RUN mkdir -p /home/onyxia/.jupyter
-RUN if [ -f "/srv/jupyter_lab_config.py" ]; then cp /srv/jupyter_lab_config.py /home/onyxia/.jupyter/; fi
 RUN if [ -f "/srv/jupyter_config.py" ]; then cp /srv/jupyter_config.py /home/onyxia/.jupyter/; fi
+RUN if [ -f "/srv/jupyter_lab_config.py" ]; then cp /srv/jupyter_lab_config.py /home/onyxia/.jupyter/; fi
 RUN if [ -f "/srv/jupyter_config.json" ]; then cp /srv/jupyter_config.json /home/onyxia/.jupyter/; fi
 
 EXPOSE 8888
