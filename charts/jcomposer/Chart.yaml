@@ -1,7 +1,7 @@
 apiVersion: v2
 name: jcomposer
-description: test ljk
-icon: 
+description: An Onyxia composer for jupyter applications (voila, streamlit, jupyterlab)
+icon: https://jupyter-ai.readthedocs.io/en/latest/_static/jupyter_logo.png
 keywords:
   - voila
   - Jupyter
@@ -24,7 +24,7 @@ type: application
 # to the chart and its templates, including the app version.
 # Versions are expected to follow Semantic Versioning (https://semver.org/)
 
-version: 0.0.1
+version: 0.0.2
 
 dependencies:
   - name: library-chart

@@ -24,14 +24,14 @@
                             "description": "supported versions",
                             "type": "string",
                             "listEnum": [
-                              "registry.logilab.fr/open-source/dockerfiles/onyxia/jcomposer:latest"
+                              "registry.logilab.fr/open-source/dockerfiles/onyxia/jcomposer:f0.0.2"
                             ],
                             "render": "list",
                             "hidden": {
                                 "value": true,
                                 "path": "service/image/custom/enabled"
                             },
-                          "default": "registry.logilab.fr/open-source/dockerfiles/onyxia/jcomposer:latest"
+                          "default": "registry.logilab.fr/open-source/dockerfiles/onyxia/jcomposer:f0.0.2"
                         },
                         "custom": {
                             "description": "use a custom voila docker image",
@@ -46,7 +46,7 @@
                                 "version": {
                                     "description": "voila unsupported version",
                                     "type": "string",
-                                    "default": "registry.logilab.fr/open-source/dockerfiles/onyxia/jcomposer:latest",
+                                    "default": "registry.logilab.fr/open-source/dockerfiles/onyxia/jcomposer:f0.0.2",
                                     "hidden": {
                                         "value": false,
                                         "path": "service/image/custom/enabled"
@@ -136,7 +136,7 @@
                             "description": "The maximum amount of cpu",
                             "title": "CPU",
                             "type": "string",
-                            "default": "2000",
+                            "default": "1500",
                             "render": "slider",
                             "sliderMin": 50,
                             "sliderMax": 4000,
