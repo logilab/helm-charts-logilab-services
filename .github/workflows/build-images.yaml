@@ -69,6 +69,7 @@ jobs:
           images: registry.logilab.fr/open-source/dockerfiles/onyxia/${{ matrix.jobs.image-name }}
           tags: |
             type=raw,value=${{ matrix.jobs.image-version}}
+            type=raw,value=latest
       - name: Set up QEMU
         uses: docker/setup-qemu-action@v1
       - name: Set up Docker Buildx
