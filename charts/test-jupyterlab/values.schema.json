@@ -136,7 +136,7 @@
                             "description": "The maximum amount of cpu",
                             "title": "CPU",
                             "type": "string",
-                            "default": "1550",
+                            "default": "1500",
                             "render": "slider",
                             "sliderMin": 50,
                             "sliderMax": 4000,

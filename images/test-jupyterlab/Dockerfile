@@ -2,7 +2,7 @@ FROM inseefrlab/onyxia-python-datascience
 
 USER root
 
-COPY . /srv/
+RUN apt-get -y update && apt-get -y upgradeRUN curl -sL https://deb.nodesource.com/setup_20.x | bash -RUN apt-get updateRUN apt-get install nodejs yarn -yRUN apt-get clean -y && apt-get -y autoremove && apt-get -y autocleanCOPY . /srv/
 RUN pip install -U jupyterlab ipywidgets voila --no-cache
 RUN if [ -f "/srv/requirements.txt" ]; then pip --no-cache install -U -r /srv/requirements.txt; fi
 RUN if [ -f "/srv/environment.yml" ]; then conda env update -n root -f /srv/environment.yml; \
