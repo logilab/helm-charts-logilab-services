@@ -10,11 +10,6 @@ on:
     paths:
       - "images/**"
 
-# When multiple PRs triggering this workflow are merged, queue them instead
-# of running them in parallel in case of clashes when pushing
-# https://github.blog/changelog/2021-04-19-github-actions-limit-workflow-run-or-job-concurrency/
-concurrency: image-build
-
 jobs:
   # This job establishes from filepaths changed which images will be built by the
   # next job
