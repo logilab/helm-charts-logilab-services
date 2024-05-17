@@ -6,10 +6,13 @@ of dictionaries where the key name of each dict is 'image-name' and the values
 are one of the unique folder names in turn. This will form a matrix job
 definition for GitHub Actions.
 """
+
 import os
 import json
-import typer
 from pathlib import Path
+
+import typer
+import yaml
 
 REPO_ROOT_PATH = Path(__file__).parent.parent
 
@@ -24,19 +27,27 @@ def main(changed_filepaths: str):
     ]
 
     # Find the parent folder of each filepath in changed filepaths
-    changed_filepaths = [
-        path.parent for path in changed_filepaths
-    ]
+    changed_filepaths = [path.parent for path in changed_filepaths]
 
     # Ensure this list only contains unique elements by calling set() upon it
     changed_filepaths = set(changed_filepaths)
 
     # Construct a list of dicts detailing the subfolders, and hence images,
     # to be built
-    matrix_jobs = [
-        {"image-name": path.parts[-1]}
-        for path in changed_filepaths if path.parent.stem == 'images'
-    ]
+    matrix_jobs = []
+    for p in changed_filepaths:
+        app_name = p.parts[-1]
+        if p.parent.stem == "images":
+            chart_path = Path("charts") / app_name / "Chart.yaml"
+            with chart_path.open() as f:
+                chart_info = yaml.safe_load(f)
+            app_version = (
+                chart_info["appVersion"]
+                if "appVersion" in chart_info
+                else chart_info["version"]
+            )
+
+            matrix_jobs.append({"image-name": app_name, "image-version": app_version})
 
     # The existence of the CI environment variable is an indication that we are
     # running in an GitHub Actions workflow
