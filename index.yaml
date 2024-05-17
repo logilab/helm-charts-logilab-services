@@ -2,7 +2,7 @@ apiVersion: v1
 entries:
   jcomposer:
   - apiVersion: v2
-    created: '2024-05-17T10:39:52.666995933Z'
+    created: "2024-05-17T10:39:52.666995933Z"
     dependencies:
     - name: library-chart
       repository: https://inseefrlab.github.io/helm-charts-interactive-services
@@ -25,7 +25,7 @@ entries:
     version: 0.0.4
   jupyter-composer:
   - apiVersion: v2
-    created: '2024-05-15T08:38:53.856283723Z'
+    created: "2024-05-15T08:38:53.856283723Z"
     dependencies:
     - name: library-chart
       repository: https://inseefrlab.github.io/helm-charts-interactive-services
@@ -48,7 +48,7 @@ entries:
     - https://github.com/logilab/helm-charts-logilab-services/releases/download/jupyter-composer-1.7.2/jupyter-composer-1.7.2.tgz
     version: 1.7.2
   - apiVersion: v2
-    created: '2024-05-14T14:23:15.01598391Z'
+    created: "2024-05-14T14:23:15.01598391Z"
     dependencies:
     - name: library-chart
       repository: https://inseefrlab.github.io/helm-charts-interactive-services
@@ -71,7 +71,7 @@ entries:
     - https://github.com/logilab/helm-charts-logilab-services/releases/download/jupyter-composer-1.7.1/jupyter-composer-1.7.1.tgz
     version: 1.7.1
   - apiVersion: v2
-    created: '2024-05-13T13:52:23.440376916Z'
+    created: "2024-05-13T13:52:23.440376916Z"
     dependencies:
     - name: library-chart
       repository: https://inseefrlab.github.io/helm-charts-interactive-services
@@ -94,7 +94,7 @@ entries:
     - https://github.com/logilab/helm-charts-logilab-services/releases/download/jupyter-composer-1.7.0/jupyter-composer-1.7.0.tgz
     version: 1.7.0
   - apiVersion: v2
-    created: '2024-05-07T13:50:31.981143707Z'
+    created: "2024-05-07T13:50:31.981143707Z"
     dependencies:
     - name: library-chart
       repository: https://inseefrlab.github.io/helm-charts-interactive-services
@@ -117,7 +117,7 @@ entries:
     - https://github.com/logilab/helm-charts-logilab-services/releases/download/jupyter-composer-1.6.0/jupyter-composer-1.6.0.tgz
     version: 1.6.0
   - apiVersion: v2
-    created: '2024-05-06T09:22:57.864564518Z'
+    created: "2024-05-06T09:22:57.864564518Z"
     dependencies:
     - name: library-chart
       repository: https://inseefrlab.github.io/helm-charts-interactive-services
@@ -140,7 +140,7 @@ entries:
     - https://github.com/logilab/helm-charts-logilab-services/releases/download/jupyter-composer-1.5.0/jupyter-composer-1.5.0.tgz
     version: 1.5.0
   - apiVersion: v2
-    created: '2024-05-03T15:16:47.419785129Z'
+    created: "2024-05-03T15:16:47.419785129Z"
     dependencies:
     - name: library-chart
       repository: https://inseefrlab.github.io/helm-charts-interactive-services
@@ -163,7 +163,7 @@ entries:
     - https://github.com/logilab/helm-charts-logilab-services/releases/download/jupyter-composer-1.4.2/jupyter-composer-1.4.2.tgz
     version: 1.4.2
   - apiVersion: v2
-    created: '2024-05-02T08:31:12.93029116Z'
+    created: "2024-05-02T08:31:12.93029116Z"
     dependencies:
     - name: library-chart
       repository: https://inseefrlab.github.io/helm-charts-interactive-services
@@ -186,7 +186,7 @@ entries:
     - https://github.com/logilab/helm-charts-logilab-services/releases/download/jupyter-composer-1.4.1/jupyter-composer-1.4.1.tgz
     version: 1.4.1
   - apiVersion: v2
-    created: '2024-04-30T14:36:06.312684826Z'
+    created: "2024-04-30T14:36:06.312684826Z"
     dependencies:
     - name: library-chart
       repository: https://inseefrlab.github.io/helm-charts-interactive-services
@@ -209,7 +209,7 @@ entries:
     - https://github.com/logilab/helm-charts-logilab-services/releases/download/jupyter-composer-1.4.0/jupyter-composer-1.4.0.tgz
     version: 1.4.0
   - apiVersion: v2
-    created: '2024-04-29T12:18:48.014383856Z'
+    created: "2024-04-29T12:18:48.014383856Z"
     dependencies:
     - name: library-chart
       repository: https://inseefrlab.github.io/helm-charts-interactive-services
@@ -232,7 +232,7 @@ entries:
     - https://github.com/logilab/helm-charts-logilab-services/releases/download/jupyter-composer-1.3.2/jupyter-composer-1.3.2.tgz
     version: 1.3.2
   - apiVersion: v2
-    created: '2024-04-25T13:27:57.831272252Z'
+    created: "2024-04-25T13:27:57.831272252Z"
     dependencies:
     - name: library-chart
       repository: https://inseefrlab.github.io/helm-charts-interactive-services
@@ -255,7 +255,7 @@ entries:
     - https://github.com/logilab/helm-charts-logilab-services/releases/download/jupyter-composer-1.3.1/jupyter-composer-1.3.1.tgz
     version: 1.3.1
   - apiVersion: v2
-    created: '2024-04-19T08:17:57.78158534Z'
+    created: "2024-04-19T08:17:57.78158534Z"
     dependencies:
     - name: library-chart
       repository: https://inseefrlab.github.io/helm-charts-interactive-services
@@ -278,7 +278,7 @@ entries:
     - https://github.com/logilab/helm-charts-logilab-services/releases/download/jupyter-composer-1.3.0/jupyter-composer-1.3.0.tgz
     version: 1.3.0
   - apiVersion: v2
-    created: '2024-04-17T09:07:02.136689405Z'
+    created: "2024-04-17T09:07:02.136689405Z"
     dependencies:
     - name: library-chart
       repository: https://inseefrlab.github.io/helm-charts-interactive-services
@@ -301,7 +301,7 @@ entries:
     - https://github.com/logilab/helm-charts-logilab-services/releases/download/jupyter-composer-1.2.2/jupyter-composer-1.2.2.tgz
     version: 1.2.2
   - apiVersion: v2
-    created: '2024-04-17T08:55:14.385779476Z'
+    created: "2024-04-17T08:55:14.385779476Z"
     dependencies:
     - name: library-chart
       repository: https://inseefrlab.github.io/helm-charts-interactive-services
@@ -324,7 +324,7 @@ entries:
     - https://github.com/logilab/helm-charts-logilab-services/releases/download/jupyter-composer-1.2.1/jupyter-composer-1.2.1.tgz
     version: 1.2.1
   - apiVersion: v2
-    created: '2024-03-26T07:53:15.355863948Z'
+    created: "2024-03-26T07:53:15.355863948Z"
     dependencies:
     - name: library-chart
       repository: https://inseefrlab.github.io/helm-charts-interactive-services
@@ -347,7 +347,7 @@ entries:
     - https://github.com/logilab/helm-charts-logilab-services/releases/download/jupyter-composer-1.2.0/jupyter-composer-1.2.0.tgz
     version: 1.2.0
   - apiVersion: v2
-    created: '2024-03-25T15:57:07.31880315Z'
+    created: "2024-03-25T15:57:07.31880315Z"
     dependencies:
     - name: library-chart
       repository: https://inseefrlab.github.io/helm-charts-interactive-services
@@ -369,10 +369,34 @@ entries:
     urls:
     - https://github.com/logilab/helm-charts-logilab-services/releases/download/jupyter-composer-1.1.0/jupyter-composer-1.1.0.tgz
     version: 1.1.0
+  streamlit-demo:
+  - apiVersion: v2
+    appVersion: 0.0.7
+    created: "2024-05-17T11:16:51.906876787Z"
+    dependencies:
+    - name: library-chart
+      repository: https://inseefrlab.github.io/helm-charts-interactive-services
+      version: 1.5.21
+    description: streamlit demo for Onyxia
+    digest: 592e0e92eea511f0a3b215edb796e1d6f9f39727efcc687a694d9392ecd7dae3
+    home: https://voila-gallery.org
+    icon: https://seeklogo.com/images/S/streamlit-logo-1A3B208AE4-seeklogo.com.png
+    keywords:
+    - voila
+    - Jupyter
+    name: streamlit-demo
+    sources:
+    - https://github.com/andfanilo/streamlit-echarts-demo
+    - https://forge.extranet.logilab.fr/open-source/onyxia/helm-charts-logilab-services
+    - https://github.com/InseeFrLab/helm-charts-interactive-services
+    type: application
+    urls:
+    - https://github.com/logilab/helm-charts-logilab-services/releases/download/streamlit-demo-0.0.9/streamlit-demo-0.0.9.tgz
+    version: 0.0.9
   voila-demo:
   - apiVersion: v2
-    appVersion: '1'
-    created: '2024-05-17T11:16:17.248069164Z'
+    appVersion: "1"
+    created: "2024-05-17T11:16:17.248069164Z"
     dependencies:
     - name: library-chart
       repository: https://inseefrlab.github.io/helm-charts-interactive-services
@@ -393,4 +417,4 @@ entries:
     urls:
     - https://github.com/logilab/helm-charts-logilab-services/releases/download/voila-demo-1.1.6/voila-demo-1.1.6.tgz
     version: 1.1.6
-generated: '2024-05-17T11:16:17.248135028Z'
+generated: "2024-05-17T11:16:51.906919257Z"
