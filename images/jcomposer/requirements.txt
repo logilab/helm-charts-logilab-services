@@ -1,7 +1,6 @@
 voila
 flake8
 black
-bokeh
 ipywidgets
 bqplot
 numpy<2
@@ -11,5 +10,4 @@ pandas
 jupyterlab_code_formatter
 jupyterlab-lsp
 jupyterlab-git
-jupyterlab-unfold
 git+https://github.com/logilab/onyxia-jupyter-composer
