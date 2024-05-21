@@ -47,7 +47,7 @@ def main(changed_filepaths: str):
                 else chart_info["version"]
             )
 
-            matrix_jobs.append({"image-name": app_name, "image-version": app_version})
+            matrix_jobs.append({"image-name": app_name, "image-version": str(app_version)})
 
     # The existence of the CI environment variable is an indication that we are
     # running in an GitHub Actions workflow
