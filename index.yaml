@@ -50,6 +50,28 @@ entries:
     version: "0.2"
   jupyter-composer:
   - apiVersion: v2
+    created: "2024-05-24T13:41:22.267351798Z"
+    dependencies:
+    - name: library-chart
+      repository: https://inseefrlab.github.io/helm-charts-interactive-services
+      version: 1.5.21
+    description: A jupyter application composer for Onyxia
+    digest: 87cc59ef968400c39ef3036ceba2d960e9bfdd4f14d82d932a983b8a05140a1a
+    home: https://jupyter.org/
+    icon: https://jupyter-ai.readthedocs.io/en/latest/_static/jupyter_logo.png
+    keywords:
+    - Jupyter
+    - Python
+    - voila
+    name: jupyter-composer
+    sources:
+    - https://github.com/InseeFrLab/images-datascience
+    - https://github.com/InseeFrLab/helm-charts-interactive-services
+    type: application
+    urls:
+    - https://github.com/logilab/helm-charts-logilab-services/releases/download/jupyter-composer-2.0.0/jupyter-composer-2.0.0.tgz
+    version: 2.0.0
+  - apiVersion: v2
     created: "2024-05-21T08:12:21.315392585Z"
     dependencies:
     - name: library-chart
@@ -512,4 +534,4 @@ entries:
     urls:
     - https://github.com/logilab/helm-charts-logilab-services/releases/download/voila-demo-1.2.1/voila-demo-1.2.1.tgz
     version: 1.2.1
-generated: "2024-05-21T13:13:15.253539261Z"
+generated: "2024-05-24T13:41:22.267455312Z"
