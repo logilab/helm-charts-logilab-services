@@ -13,7 +13,7 @@
                         "pullPolicy": {
                             "type": "string",
                             "description": "option when pulling the docker image",
-                            "default": "IfNotPresent",
+                            "default": "Always",
                             "enum": [
                                 "IfNotPresent",
                                 "Always",
@@ -24,14 +24,14 @@
                             "description": "supported versions",
                             "type": "string",
                             "listEnum": [
-                              "registry.logilab.fr/open-source/dockerfiles/onyxia/pygwalker-demo:1.1"
+                              "registry.logilab.fr/open-source/dockerfiles/onyxia/pygwalker-demo:1.2"
                             ],
                             "render": "list",
                             "hidden": {
                                 "value": true,
                                 "path": "service/image/custom/enabled"
                             },
-                          "default": "registry.logilab.fr/open-source/dockerfiles/onyxia/pygwalker-demo:1.1"
+                          "default": "registry.logilab.fr/open-source/dockerfiles/onyxia/pygwalker-demo:1.2"
                         },
                         "custom": {
                             "description": "use a custom voila docker image",
@@ -46,7 +46,7 @@
                                 "version": {
                                     "description": "voila unsupported version",
                                     "type": "string",
-                                    "default": "registry.logilab.fr/open-source/dockerfiles/onyxia/pygwalker-demo:1.1",
+                                    "default": "registry.logilab.fr/open-source/dockerfiles/onyxia/pygwalker-demo:1.2",
                                     "hidden": {
                                         "value": false,
                                         "path": "service/image/custom/enabled"
