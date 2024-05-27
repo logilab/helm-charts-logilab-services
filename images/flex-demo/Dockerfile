@@ -1,4 +1,4 @@
-FROM inseefrlab/onyxia-python-datascience
+FROM inseefrlab/onyxia-python-minimal
 
 USER root
 
